@@ -26,22 +26,13 @@ export default function Letter() {
                         </p>
                         <br />
                         <p>
-                            Instead...
+                            Instead... <br/> I opened VS Code.
                         </p>
+
                         <p>
-                            I opened VS Code.
+                            Every animation. <br/> Every button. <br/> Every tiny detail.
                         </p>
-                        <br />
-                        <p>
-                            Every animation.
-                        </p>
-                        <p>
-                            Every button.
-                        </p>
-                        <p>
-                            Every tiny detail.
-                        </p>
-                        <br />
+                        
                         <p>
                             Was built with one hope...
                         </p>
@@ -57,7 +48,7 @@ export default function Letter() {
                             then this project was already worth making.
                         </p>
                         <br />
-                        <p>❤️</p>
+                        ❤️
                         <br />
                         <p>
                             — Vaibhav
