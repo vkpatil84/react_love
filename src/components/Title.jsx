@@ -7,7 +7,7 @@ export default function Title({
                 fontFamily: "Playfair Display"
             }}
             className="
-            text-5xl
+            text-2xl
             text-center
             leading-tight
             text-gray-800
