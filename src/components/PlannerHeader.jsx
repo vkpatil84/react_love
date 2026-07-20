@@ -5,7 +5,7 @@ export default function PlannerHeader({
     subtitle
 }) {
     return (
-        <div className="mb-10">
+        <div className="mb-6">
             <Title>
                 {title}
             </Title>
