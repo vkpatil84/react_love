@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* :root {
+  --bg: #FFF7F9;
+  --card: #FFFFFF;
+  --primary: #FF7AA2;
+  --secondary: #FFD6E7;
+  --text: #2B2B2B;
+  --muted: #777;
+} */
+
+:root {
+  --bg: #FFF8FB;
+  --surface: rgba(255, 255, 255, .55);
+  --surface-solid: #ffffff;
+  --primary: #FF6B9E;
+  --primary-dark: #E75480;
+  --secondary: #FFD6E5;
+  --accent: #FFE9F2;
+  --text: #2E2E2E;
+  --muted: #7B7B7B;
+  --shadow:
+    0 20px 60px rgba(0, 0, 0, .12);
+  --radius: 32px;
+}
+
+@layer base {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
