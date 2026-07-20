@@ -4,7 +4,7 @@ export default function Subtitle({
     return (
         <p
             className="
-            mt-8
+            mt-6
             text-center
             text-lg
             leading-8
