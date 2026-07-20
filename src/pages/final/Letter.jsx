@@ -1,4 +1,4 @@
-import Button from "../../components/Button";
+h-full Button from "../../components/Button";
 import MobileFrame from "../../components/MobileFrame";
 import { useJourney } from "../../context/JourneyContext";
 
@@ -8,7 +8,7 @@ export default function Letter() {
 
     return (
         <MobileFrame>
-            <div className="h-full flex items-center justify-center bg-[#FFFDF7] p-8 pt-12">
+            <div className="min-h-full flex items-center justify-center bg-[#FFFDF7] p-8 pt-12">
                 <div className=" bg-[#FFFDF7] rounded-2xl shadow-xl p-6 rotate-[0.5deg] max-w-md " >
                     <h1 style={{ fontFamily: "Playfair Display" }} className="text-2xl mb-6" >
                         Hi {DName},
