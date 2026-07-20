@@ -8,7 +8,7 @@ export default function Letter() {
 
     return (
         <MobileFrame>
-            <div className="h-full flex items-center justify-center bg-[#FFFDF7] p-8">
+            <div className="h-full flex items-center justify-center bg-[#FFFDF7] p-8 pt-12">
                 <div className=" bg-[#FFFDF7] rounded-2xl shadow-xl p-6 rotate-[0.5deg] max-w-md " >
                     <h1 style={{ fontFamily: "Playfair Display" }} className="text-2xl mb-6" >
                         Hi {DName},
@@ -27,7 +27,8 @@ export default function Letter() {
                         <br />
                         <p>
                             Instead... <br/> I opened VS Code.
-                        </p>
+                        </p> 
+                        <br/>
 
                         <p>
                             Every animation. <br/> Every button. <br/> Every tiny detail.
